@@ -1,7 +1,7 @@
 import logging
 from configparser import ConfigParser
 
-from bot.start import Client
+from bot.bot import Client
 
 # Logging at the start to catch everything
 logging.basicConfig(
