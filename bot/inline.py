@@ -1,5 +1,5 @@
 from pyrogram import types, filters
-from bot import bot
+from bot import Client
 
 
 @bot.on_inline_query()
