@@ -1,4 +1,4 @@
-from bot import bot, max_file
+from bot import Client, max_file
 
 
 from pyrogram import filters, types
