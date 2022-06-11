@@ -13,11 +13,17 @@ from shazamio import Shazam, exceptions, FactoryArtist, FactoryTrack
 shazam = Shazam()
 
 
-bot = Client(
-    "Shazam",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
+class bot(Client):
+    def __init__(self, name):
+        config = ConfigParser()
+        super().__init__(
+            name,
+            api_id=API_ID,
+            api_hash=API_HASH,
+            bot_token=BOT_TOKEN,
+            workers=16,
+            plugins=plugins,
+            workdir="./",
         )
 
     async def start(self):
