@@ -3,3 +3,6 @@ tgcrypto
 ShazamAPI
 ffmpeg
 requests
+aiohttp
+aiofiles
+pyromod
