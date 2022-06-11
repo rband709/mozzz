@@ -16,4 +16,4 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-app.run
+bot.run
