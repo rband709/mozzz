@@ -22,7 +22,6 @@ class bot(Client):
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
             workers=16,
-            plugins=plugins,
             workdir="./",
         )
 
