@@ -10,7 +10,7 @@ chardet==4.0.0
 dataclass-factory==2.10.1
 idna==3.1
 multidict==5.1.0
-numpy==1.20.1
+numpy
 pyaes==1.6.1
 pydub==0.24.1
 pyromod==1.5
