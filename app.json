@@ -1,27 +1,30 @@
 {
-    "name": "Shazam Music Telegram Bot",
-    "description": "Find Music Using Shazam Api Finder...",
-    "keywords": [
-        "telegram",
-        "shazam",
-        "music"
-    ],
-    "website": "https://paypal.me/AbhishekKumar1N47",
-    "repository": "https://github.com/PayForBotZ/Shazam-Telegram-Bot",
-    "logo": "https://telegra.ph/file/dd2ad960662cc63e85977.jpg", 
-    "env": {
-        "BOT_TOKEN": {
-            "description": "Your bot token (must add)",
-            "value": ""
-        },
-        "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
-            "value": "1234567"
-        },
-        "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
-            "value": "04fc2de75c898324561286e5b10bd619"
-        }
+  "name": "Shazam Music Telegram Bot",
+  "description": "Find Music Using Shazam Api Bot",
+  "keywords": [
+    "telegram",
+    "shazam",
+    "music"
+  ],
+  "success_url": "https://paypal.me/AbhishekKumar1N47",
+  "website": "https://paypal.me/AbhishekKumar1N47",
+  "repository": "https://github.com/PayForBotZ/Shazam-Telegram-Bot",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
     }
   },
   "addons": [
